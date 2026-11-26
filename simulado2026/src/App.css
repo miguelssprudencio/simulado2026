@@ -1,5 +1,13 @@
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 25px;
-}
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+.container { width: min(1180px, 88%); margin: 0 auto; flex: 1; }
+.status-message { display: flex; align-items: center; gap: 10px; padding: 14px 16px; border-radius: 12px; margin: 18px 0; font-size: .9rem; }
+.loading-message { color: #51489c; background: #f0eeff; }
+.error-message { color: #b42318; background: #fff0ee; border: 1px solid #ffd8d2; }
+.spinner { width: 17px; height: 17px; border: 2px solid #c9c4f0; border-top-color: #483DAD; border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.empty-state { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 48px 20px 65px; color: #77758a; }
+.empty-state img { width: 105px; height: 105px; margin-bottom: 15px; }
+.empty-state h2 { color: #333; font-size: 1.25rem; margin-bottom: 8px; }
+.empty-state p { max-width: 460px; line-height: 1.6; font-size: .9rem; }
+.site-footer { text-align: center; padding: 20px; color: #88869a; font-size: .76rem; border-top: 1px solid #e9e8f1; background: #fff; }
+@media (max-width: 600px) { .container { width: 90%; } }

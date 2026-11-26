@@ -1,0 +1,29 @@
+codigo;descricao;icone
+0;Céu limpo;sol.svg
+1;Predominantemente limpo;sol.svg
+2;Parcialmente nublado;nublado.svg
+3;Nublado;nublado.svg
+45;Neblina;neblina.svg
+48;Neblina com geada;neblina.svg
+51;Garoa fraca;chuva.svg
+53;Garoa moderada;chuva.svg
+55;Garoa intensa;chuva.svg
+56;Garoa congelante fraca;neve.svg
+57;Garoa congelante intensa;neve.svg
+61;Chuva fraca;chuva.svg
+63;Chuva moderada;chuva.svg
+65;Chuva forte;chuva.svg
+66;Chuva congelante fraca;neve.svg
+67;Chuva congelante forte;neve.svg
+71;Neve fraca;neve.svg
+73;Neve moderada;neve.svg
+75;Neve forte;neve.svg
+77;Grãos de neve;neve.svg
+80;Pancadas de chuva fracas;chuva.svg
+81;Pancadas de chuva moderadas;chuva.svg
+82;Pancadas de chuva fortes;chuva.svg
+85;Pancadas de neve fracas;neve.svg
+86;Pancadas de neve fortes;neve.svg
+95;Trovoada;tempestade.svg
+96;Trovoada com granizo fraco;tempestade.svg
+99;Trovoada com granizo forte;tempestade.svg

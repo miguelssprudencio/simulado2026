@@ -1,0 +1,7 @@
+.forecast-section { margin: 28px 0 50px; }
+.forecast-heading { display: flex; justify-content: space-between; align-items: end; gap: 15px; margin-bottom: 17px; }
+.forecast-heading h2 { margin-top: 7px; font-size: 1.45rem; }
+.forecast-note { color: #77758a; font-size: .82rem; }
+.forecast-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 13px; }
+@media (max-width: 900px) { .forecast-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 580px) { .forecast-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

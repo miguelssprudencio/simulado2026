@@ -1,0 +1,30 @@
+.site-header {
+  width: 100%;
+  padding: 22px 6%;
+  background: #ffffff;
+  border-bottom: 1px solid #e9e8f1;
+}
+.header-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.7px;
+}
+.brand img { width: 42px; height: 42px; }
+.header-tagline { color: #77758a; font-size: .9rem; }
+@media (max-width: 600px) {
+  .site-header { padding: 17px 5%; }
+  .header-tagline { display: none; }
+}

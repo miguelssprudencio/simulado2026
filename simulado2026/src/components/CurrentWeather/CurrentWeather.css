@@ -1,0 +1,20 @@
+.current-section { background: #fff; border: 1px solid #eeedf4; border-radius: 20px; padding: 28px; box-shadow: 0 8px 28px #29205c08; }
+.current-main { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-bottom: 25px; }
+.current-main h2 { font-size: 1.55rem; margin-top: 8px; }
+.location-subtitle { color: #77758a; margin-top: 5px; }
+.current-temperature { font-size: clamp(3.5rem, 9vw, 5.5rem); font-weight: 800; letter-spacing: -5px; line-height: 1.12; margin-top: 16px; }
+.current-temperature span { font-size: .48em; vertical-align: top; letter-spacing: -1px; }
+.current-description { color: #6257bb; font-weight: 600; margin-top: 5px; }
+.current-icon { width: 130px; height: 130px; object-fit: contain; margin-right: 5%; }
+.details-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; border-top: 1px solid #eeedf4; padding-top: 22px; }
+.detail-item { display: flex; align-items: center; gap: 11px; padding: 12px; background: #f8f7fc; border-radius: 12px; min-width: 0; }
+.detail-icon { font-size: 1.35rem; }
+.detail-item p { color: #77758a; font-size: .76rem; margin-bottom: 5px; }
+.detail-item strong { font-size: .96rem; }
+@media (max-width: 760px) { .details-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) {
+  .current-section { padding: 20px; }
+  .current-icon { width: 85px; height: 85px; margin: 0; }
+  .detail-item { padding: 10px 8px; }
+  .detail-item p { font-size: .68rem; }
+}
